@@ -1,0 +1,117 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviço de Engenharia - Ar Condicionado, Ventilação e Exaustão</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0044cc;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #0044cc;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Serviço de Engenharia</h1>
+    <p>Especializados em Ar Condicionado, Ventilação e Exaustão</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#testemunhos">Testemunhos</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<div class="container" id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Bem-vindo ao nosso serviço de engenharia. Com 8 anos de experiência, somos especializados em soluções de ar condicionado, ventilação e exaustão para projetos de fast food, corporativo e residenciais. Nossa missão é fornecer serviços de alta qualidade com foco na satisfação do cliente.</p>
+</div>
+
+<div class="container" id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+        <li><strong>Ar Condicionado:</strong> Instalação, manutenção e reparo de sistemas de ar condicionado.</li>
+        <li><strong>Ventilação:</strong> Soluções de ventilação para ambientes residenciais e comerciais.</li>
+        <li><strong>Exaustão:</strong> Sistemas de exaustão para cozinhas, banheiros e outras áreas.</li>
+    </ul>
+</div>
+
+<div class="container" id="projetos">
+    <h2>Projetos</h2>
+    <p>Aqui estão alguns dos nossos projetos concluídos:</p>
+    <ul>
+        <li><strong>Fast Food:</strong> Instalação de sistemas de ar condicionado e exaustão em diversas redes de fast food.</li>
+        <li><strong>Corporativo:</strong> Soluções completas de ventilação e ar condicionado para escritórios e edifícios comerciais.</li>
+        <li><strong>Residenciais:</strong> Projetos personalizados de ar condicionado e ventilação para residências de todos os tamanhos.</li>
+    </ul>
+</div>
+
+<div class="container" id="testemunhos">
+    <h2>Testemunhos</h2>
+    <p>"Excelente serviço! O sistema de ar condicionado funciona perfeitamente." - Cliente A</p>
+    <p>"Profissionais qualificados e atenciosos. Recomendo!" - Cliente B</p>
+</div>
+
+<div class="container" id="contato">
+    <h2>Contato</h2>
+    <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <p>Telefone: (11) 1234-5678</p>
+    <p>E-mail: contato@servicoengenharia.com</p>
+    <p>Endereço: Rua Exemplo, 123, Cidade, Estado</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Serviço de Engenharia. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
+```
